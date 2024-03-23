@@ -16,10 +16,6 @@ void solve()
         return;
     }
 
-    // cout<<s.length()<<endl;
-
-    // int n = s.length();
-
     map<char, int> m;
 
     for (auto &e : s)
