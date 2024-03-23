@@ -49,16 +49,6 @@ void solve()
                 cnt -= 2;
             }
         }
-        else
-        {
-            count++;
-        }
-    }
-
-    if (count > 1)
-    {
-        cout << "-1" << endl;
-        return;
     }
 
     if (odd_ch == '#')
