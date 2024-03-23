@@ -9,13 +9,7 @@ void solve()
 
     string s;
     cin >> s;
-
-    if (n != s.length())
-    {
-        cout << "-1" << endl;
-        return;
-    }
-
+    
     map<char, int> m;
 
     for (auto &e : s)
